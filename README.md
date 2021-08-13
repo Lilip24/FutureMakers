@@ -1,4 +1,6 @@
 # FutureMakers
+The MIT FutureMakers + SureStart Applied Deep Learning Program is a 6-week AI learning program, developed with collaboration with [SureStart](https://mysurestart.com/) and the [MIT RAISE (Responsible AI for Social Empowerment and Education) Initiative](https://raise.mit.edu/).
+
 
 ## Day 1 (July 6, 2021):
 Today, I refreshed myself on my Python skills and reviewed the rest of the Ramp Up document to get ready for the future.
