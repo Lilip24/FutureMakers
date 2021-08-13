@@ -3,7 +3,7 @@ The MIT FutureMakers + SureStart Applied Deep Learning Program is a 6-week AI le
 
 ### July 2021
 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-|-----|----:|----:|----:|----:|----:|----:|
+|-----|-----|-----|-----|-----|-----|-----|
 | 04  | 05  | 06  | 07  | 08  | 09  | 10  |
 | 11  | 12  | 13  | 14  | 15  | 16  | 17  |
 | 18  | 19  | 20  | 21  | 22  | 23  | 24  |
