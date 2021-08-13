@@ -57,35 +57,35 @@ Today, I worked on developing a CNN for classifying MNIST datasets from Day 11, 
 Reflection Activity: List the differences between a Convolutional Neural Network and a Fully Connected Neural Network. Discuss layers and their role, and applications of each of the two types of architectures
 
 CNNs:
+- made up of convolutional layers, activation layers, pooling layers, flattening layer, and fully connected layers
+- not every input connects to every output
+- can take in 3D inputs
+- used for recognition and classification of images
 
-made up of convolutional layers, activation layers, pooling layers, flattening layer, and fully connected layers
-not every input connects to every output
-can take in 3D inputs
-used for recognition and classification of images
 Fully Connected NNs:
+- made up of an input layer, activation layer, and output layer
+- each input is connected to each neuron
+- must have modification to the input in order to receive images
+- used for more generalized purposes of regression and classification
 
-made up of an input layer, activation layer, and output layer
-each input is connected to each neuron
-must have modification to the input in order to receive images
-used for more generalized purposes of regression and classification
-Day 15 (July 20, 2021)
+## Day 15 (July 20, 2021)
 Today I worked on my Day 14 assignments primarily focused on Loss functions and Model Optimization. For the lesson plan and action items, I read through a bunch of articles and slides and followed a tutorial for making a simple feed-forward neural network model to predict house prices.
 
-Day 16 (July 21, 2021)
+## Day 16 (July 21, 2021)
 During our Daliy Meeting with the Deep Mentors, we went continued our discussion on ethical AI, and how to make decisions when collecting our datasets, organizing/cleaning data, and creating new models for the benefit of all people. As part of the Self-Curriculum, I worked on Day 15 items including learning more about activation functions from many articles and tutorials, and more specifically how/when to use specific functions. I also began the Day 16 curriculum by reading through an article on what I can actually do for ethical ML.
 
 Reflection Activity: Write a reflection piece on the advantages of the Rectified Linear activation function, along with one use case.
 
 Advantages of ReLU:
+- pretty computationally simple + efficient
+- capable of outputting a true zero value
+- looks/acts like a linear activation function -> easier to optimize bc its behavior is linear or close to linear
+- less susceptible to vanishing gradients that prevent deep models from being trained
 
-pretty computationally simple + efficient
-capable of outputting a true zero value
-looks/acts like a linear activation function -> easier to optimize bc its behavior is linear or close to linear
-less susceptible to vanishing gradients that prevent deep models from being trained
 Uses of ReLU:
-
 ReLU is often used with Multilayer Perceptron (MLP) and Convolutional Neural Networks (CNN) bc it's less susceptible to problems during training, easier to use with lots of data, and doesn't take as much computations.
-Day 17 (July 22, 2021)
+
+## Day 17 (July 22, 2021)
 Today I worked on the action item for the Day 16 curriculum: creating a Gender Classification ML Model. While I ran into some difficult errors, I resolved them with help from the Head Mentors and almost finished it. I also attended a fantastic talk by Jennifer Chu-Carroll about the Watson Jeopardy machine, what he really 'understands' about his answers and what applications Watson can help us in the present day.
 
 ## Day 18 (July 23, 2021)
@@ -94,22 +94,22 @@ Today, I finished the Gender Classification model project and uploaded it to my 
 ## Day 19+20 - Weekend (July 24 + 25, 2021)
 Over the Weekend, I caught up on Day 17 action item, including completing the Image Classification tutorial and letting it run through its epochs.
 
-Day 21 (July 26, 2021)
+## Day 21 (July 26, 2021)
 I mostly worked on Day 18's work focused on Overfitting and Regularization. I read through both articles on how to avoid overfitting and what are the common solutions to overfitting, completed the hands on tutorial about different approaches for handling overfitting in deep learning models, and wrote the ethical reflection for how overfitting deep learning models can be “detrimental to society.
 
 Reflection Activity: Can you think of one way that an overfit model can be detrimental?
 What is the point of an Artificial Intelligence that isn’t really intelligent? What is the point of a Machine Learning Model that doesn’t learn? Simply put, an overfit model is good on paper, but almost useless in practice. What happens if someone develops an algorithm and says that it is highly accurate, but when put into a real-life situation, it completely fails? Some might not suspect anything because on paper the model looks great, and blindly believe it. Some might realize that something’s off, but they might not have the knowledge to articulate their ideas or fix the issue. Some might not even care. In the meantime, the model continues to spew out inaccurate guesses, causing issues left and right. One example is a Computer Vision algorithm that detects facial expressions and predicts emotions. Because the model is overfit, meaning it has memorized its training dataset, it is unable to detect different facial structures, facial expressions, skin tones, etc. It cannot do its job because it cannot understand different faces. Not only is this practically useless, it can also lead to a world of other issues, including discrimination and bias.
 
-Day 22 (July 27, 2021)
+## Day 22 (July 27, 2021)
 Today I worked on Day 21's lesson plan and action item about Autoencoders and upsampling. This included completing both tutorials, one on adding upscaling layers and the other on building autoencoders with actual code and visualizations. I have uploaded both to GitHub for my future reference. I also watched Professor Rosalid Picard's TEDTalk on the origins of Affective Computing and read about the EMPath 2020 makeathon at Affectiva, both of which were part of Day 22's lesson plan.
 
-Day 23 (July 28, 2021)
+## Day 23 (July 28, 2021)
 Today I began working on Day 22's action item by reading through the Speech Emotion Analyzer README and setting up the Audio Recorder for my own voice sample.
 
-Day 24 (July 29, 2021)
+## Day 24 (July 29, 2021)
 Today, I FINALLY was able to complete and upload the Image Classification tutorial about Cats and Dogs. I continued to work on Speech Emotion Analyzer project.
 
-Day 25 (July 30, 2021)
+## Day 25 (July 30, 2021)
 I completed the Sentiment Analysis Movie Review classifier, applied variations to the model, and committed my code for this NLP model to my GitHub.
 
 Write a reflection piece on the ethical implications of big NLP models such as GPT-2. Some of the ethical implications of big NLP models are that they could misinterpret certain accents or dialects/vernacular languages, such as African-American Vernacular English. Not only would this mean specific words or specific meanings would be ignored or misunderstood, but such bias could make it difficult or even inaccessible for certain groups of people. I know that my own mother, who still has a Russian accent after living in the United States for over 20 years, is sometimes disregarded by our Alexa, while my sister, my father and I are completely understood. This is by no means a detrimental issue, but it shows how ethics especially need to be considered with Natural Language Processing and how NLP could have bigger impacts when brought to a bigger model with a bigger scale.
